@@ -18,7 +18,7 @@ To launch Microrocks locally, you can use Docker by running this command.
 docker run --name microcks -p 8585:8080 -it --rm quay.io/microcks/microcks-uber:latest-native
 ```
 
-## Troubleshoting
+## Troubleshooting
 
 To make the tutorial work on MacOS, you may need to configure hostname
 resolution for DNS name `host.docker.internal`.
